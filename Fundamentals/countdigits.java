@@ -2,16 +2,14 @@ package Fundamentals;
 
 public class countdigits {
     public static void main(String[] args) {
-        int n = 19340; 
-        int count  = 0 ; 
+        int n = 260205 ; 
+        
         while(n > 0) {
-            int digit = n % 10 ; 
-            n = n/10 ; 
-            count ++ ;
-            System.out.println(digit);
-          
-
+            int rem = n % 10 ; 
+            n = n / 10 ;   
+    
+            System.out.println(rem);
         }
-          System.out.println("Count of digits is : " + count);
+        
     }
 }
